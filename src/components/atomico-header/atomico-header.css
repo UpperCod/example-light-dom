@@ -1,0 +1,18 @@
+:host{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    overflow: auto;
+}
+
+:host([fix="top"]){
+    top: 0px;
+    left: 0px;
+}
+
+nav{
+    width: 100%;
+}

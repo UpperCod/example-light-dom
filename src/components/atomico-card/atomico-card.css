@@ -1,0 +1,9 @@
+:host{
+    display: inline-block;
+    transition: .3s ease all;
+    position: relative;
+    
+}
+:host(:hover){
+    transform: scale(1.1);
+}
